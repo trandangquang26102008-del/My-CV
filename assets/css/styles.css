@@ -395,6 +395,36 @@ ul {
 
 .to-top { color: var(--color-primary); font-weight: 600; }
 
+/* --- Khối liên hệ ở cuối trang --- */
+.footer-contact {
+  padding-bottom: var(--space-3);
+  margin-bottom: var(--space-3);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.footer-contact-title {
+  font-size: var(--fs-h2);
+  margin-bottom: var(--space-1);
+}
+
+.footer-contact-text {
+  color: var(--color-text-soft);
+  margin-bottom: var(--space-2);
+}
+
+.footer-contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  align-items: center;
+}
+
+.footer-contact-links a:not(.btn) {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+.footer-contact-links a:not(.btn):hover { text-decoration: underline; }
+
 /* ==========================================================================
    10. MEDIA QUERIES – nâng cấp theo breakpoint (mobile-first)
    ========================================================================== */
